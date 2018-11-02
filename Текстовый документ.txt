@@ -1,0 +1,14 @@
+<?php
+
+$rand1=array();
+
+for ($i=0; $i<100; $i++){
+    $rand1[$i]= rand(1,100);
+    }
+
+ for ($i=0;  $i<100; $i++){
+ 	if ($rand1[$i]%2==0){
+ 	echo"<br>$rand1[$i]";
+ 	}
+ 	}
+ ?>
